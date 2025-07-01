@@ -9,10 +9,10 @@ class Etablissement(models.Model):
     
     def __str__(self):
         return self.nom
-
+    
 class Eleve(models.Model):
     GENRE_CHOICES = [
-        ('M', 'Masculin'),
+        ('M', 'Masculine'),
         ('F', 'Féminin')
     ]
     etablissement = models.ForeignKey(Etablissement, on_delete=models.CASCADE)

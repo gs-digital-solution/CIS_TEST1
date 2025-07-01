@@ -1,0 +1,50 @@
+
+### Django ###
+*.log
+*.pot
+*.py[co]
+__pycache__/
+migrations/
+*.sqlite3
+*.sqlite3-journal
+db.sqlite3
+/media/
+/staticfiles/
+.env
+.env.local
+.env*.local
+
+### Environnements virtuels ###
+venv/
+monenv/
+.env/
+.venv/
+env/
+ENV/
+
+### IDE & Éditeurs ###
+.vscode/
+.idea/
+*.swp
+*.sublime-workspace
+*.sublime-project
+
+### Système ###
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+### Fichiers de compilation ###
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+### Tests & Coverage ###
+.coverage
+htmlcov/
+.pytest_cache/
